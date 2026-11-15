@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <rect width="300" height="200" rx="16" fill="#E8F5E9" />
+  <!-- Fuse cord -->
+  <path d="M 70 50 Q 150 160 230 50" fill="none" stroke="#D84315" stroke-width="4"/>
+  <!-- Crackers in garland string -->
+  <rect x="85" y="75" width="10" height="25" rx="2" fill="#2E7D32"/>
+  <rect x="105" y="95" width="10" height="25" rx="2" fill="#C62828"/>
+  <rect x="125" y="112" width="10" height="25" rx="2" fill="#2E7D32"/>
+  <rect x="145" y="120" width="10" height="25" rx="2" fill="#C62828"/>
+  <rect x="165" y="112" width="10" height="25" rx="2" fill="#2E7D32"/>
+  <rect x="185" y="95" width="10" height="25" rx="2" fill="#C62828"/>
+  <rect x="205" y="75" width="10" height="25" rx="2" fill="#2E7D32"/>
+  <!-- Eco Certified Badge -->
+  <rect x="18" y="18" width="95" height="26" rx="6" fill="#2E7D32"/>
+  <text x="65" y="35" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF">GREEN CRACKER</text>
+  <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="14" fill="#1B5E20">सुरक्षित 100 लड़ी (Green Ladi)</text>
+</svg>

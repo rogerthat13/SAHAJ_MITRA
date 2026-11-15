@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8EAF6" />
+      <stop offset="100%" stop-color="#C5CAE9" />
+    </linearGradient>
+    <radialGradient id="blueG" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#8C9EFF" />
+      <stop offset="60%" stop-color="#304FFE" />
+      <stop offset="100%" stop-color="#1A237E" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="200" rx="16" fill="url(#bgB)" />
+  <path d="M 35 50 Q 150 185 265 50" fill="none" stroke="#2E7D32" stroke-width="5"/>
+  <!-- Blue bell flowers along the garland -->
+  <circle cx="60" cy="70" r="18" fill="url(#blueG)"/>
+  <circle cx="95" cy="100" r="20" fill="url(#blueG)"/>
+  <circle cx="125" cy="122" r="22" fill="#E8EAF6"/>
+  <circle cx="125" cy="122" r="18" fill="url(#blueG)"/>
+  <!-- Center focal flower -->
+  <circle cx="150" cy="132" r="26" fill="url(#blueG)"/>
+  <circle cx="150" cy="132" r="9" fill="#FFF59D"/>
+  <circle cx="175" cy="122" r="22" fill="#E8EAF6"/>
+  <circle cx="175" cy="122" r="18" fill="url(#blueG)"/>
+  <circle cx="205" cy="100" r="20" fill="url(#blueG)"/>
+  <circle cx="240" cy="70" r="18" fill="url(#blueG)"/>
+  <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="14" fill="#1A237E">अपराजिता / ब्लू बेल माला (Blue Bell)</text>
+</svg>

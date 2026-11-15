@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>सहज मित्र (Sahaj Mitra) - Festive Street Vendor Assistant & Smart POS</title>
+  <meta name="description" content="A smart festive POS, dynamic billing, UPI QR and token queue assistant designed by a Class 12 student to help busy roadside street vendors.">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/static/images/logo.svg">
+</head>
+<body>
+
+  <!-- Festive Announcement Ribbon -->
+  <aside class="festive-ribbon" id="festiveRibbon">
+    ✨ पावन त्योहार का शुभ पर्व! खुशियाँ बाँटें, स्थानीय दुकानदारों का साथ दें ✨
+  </aside>
+
+  <!-- Top Sticky Navbar -->
+  <header class="top-navbar">
+    <div class="top-navbar-inner">
+      <div class="brand-section" id="brandLogoHome">
+        <img src="/static/images/logo.svg" alt="Sahaj Mitra Diya Logo" class="brand-logo-img">
+        <div class="brand-titles">
+          <h1 id="brandName">सहज मित्र 🪔</h1>
+          <div class="brand-tagline" id="brandTagline">व्यस्त दुकानदारों का डिजिटल साथी • भीड़ में भी आसान बिक्री!</div>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <button class="lang-btn" id="langToggleBtn" title="Switch Language">
+          English 🌐
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Tabs Navigation -->
+  <div class="view-tabs-container">
+    <button class="view-tab active" id="tabShop">
+      🌸 सामान चुनें (मेन्यू)
+    </button>
+    <button class="view-tab" id="tabBilling">
+      🧾 बिल और भुगतान
+    </button>
+    <button class="view-tab" id="tabVendor">
+      👨‍🍳 दुकानदार डैशबोर्ड
+    </button>
+  </div>
+
+  <main class="app-container">
+
+    <!-- ================= VIEW 1: SHOP / CATALOG ================= -->
+    <section id="shopView">
+      <!-- Search & Category Filters -->
+      <div class="search-filter-box">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="सामान खोजें... (उदा: गेंदा, काजू कतली, अनार, 1kg)">
+        </div>
+      </div>
+
+      <!-- Categories Scroll Bar -->
+      <nav class="categories-bar" id="categoriesBar">
+        <!-- Rendered by app.js -->
+      </nav>
+
+      <!-- Products Grid -->
+      <div class="product-grid" id="productsGrid">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- ================= VIEW 2: BILLING & CHECKOUT ================= -->
+    <section id="billingView" style="display: none;">
+      <div class="billing-page-container" id="billingPageContainer">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ================= VIEW 3: CONFIRMATION & TOKEN ================= -->
+    <section id="confirmationView" style="display: none;">
+      <div class="confirmation-container" id="confirmationPageContainer">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ================= VIEW 4: VENDOR DASHBOARD ================= -->
+    <section id="vendorView" style="display: none;">
+      <div class="vendor-dashboard-container" id="vendorDashboardContainer">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Bottom Cart Bar (Visible when items in cart on Shop View) -->
+  <div class="sticky-cart-bar" id="stickyCartBar">
+    <div class="cart-bar-inner">
+      <div class="cart-summary-info">
+        <div class="cart-icon-bubble">
+          🛒
+          <span class="cart-badge" id="cartCountBadge">0</span>
+        </div>
+        <div class="cart-details-text">
+          <div class="items-count" id="cartItemsCountText">0 सामान</div>
+          <div class="total-price" id="cartTotalDisplay">₹0.00</div>
+        </div>
+      </div>
+
+      <button class="proceed-checkout-btn" id="proceedToCheckoutBtn">
+        <span>बिलिंग के लिए आगे बढ़ें</span>
+        <span>→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- App Footer -->
+  <footer class="app-footer">
+    <div><strong>सहज मित्र (SAHAJ MITRA)</strong> • Made by Class 12th Student with Python & JavaScript</div>
+    <div style="font-size:0.78rem; opacity:0.85; margin-top:4px;">
+      सड़क किनारे के फूल, मिठाई व हरित पटाखा विक्रेताओं के काम को आसान बनाने और मुनाफ़ा बढ़ाने हेतु समर्पित पहल।
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/static/js/qrcode.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

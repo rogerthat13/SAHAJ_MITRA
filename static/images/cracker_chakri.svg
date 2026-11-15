@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <rect width="300" height="200" rx="16" fill="#F1F8E9" />
+  <!-- Spinning spiral chakri -->
+  <g transform="translate(150, 95)">
+    <circle cx="0" cy="0" r="48" fill="#C8E6C9" stroke="#43A047" stroke-width="4"/>
+    <path d="M0 0 L25 -35 A45 45 0 0 1 45 0 Z" fill="#00C853"/>
+    <path d="M0 0 L-25 35 A45 45 0 0 1 -45 0 Z" fill="#00C853"/>
+    <path d="M0 0 L-35 -25 A45 45 0 0 1 0 -45 Z" fill="#76FF03"/>
+    <path d="M0 0 L35 25 A45 45 0 0 1 0 45 Z" fill="#76FF03"/>
+    <circle cx="0" cy="0" r="14" fill="#FFD600"/>
+    <circle cx="0" cy="0" r="6" fill="#DD2C00"/>
+  </g>
+  <!-- Spark trails around it -->
+  <circle cx="85" cy="80" r="4" fill="#00E676"/>
+  <circle cx="215" cy="115" r="4" fill="#76FF03"/>
+  <circle cx="160" cy="35" r="3" fill="#FFD600"/>
+  <!-- Eco Certified Badge -->
+  <rect x="18" y="18" width="95" height="26" rx="6" fill="#2E7D32"/>
+  <text x="65" y="35" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF">GREEN CRACKER</text>
+  <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="14" fill="#1B5E20">ज़मीनी चकरी (Green Chakri)</text>
+</svg>

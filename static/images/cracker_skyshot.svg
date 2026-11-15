@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <rect width="300" height="200" rx="16" fill="#E0F2F1" />
+  <!-- Rocket Pipe Tube -->
+  <rect x="135" y="90" width="30" height="65" rx="5" fill="#00695C"/>
+  <polygon points="130,90 150,60 170,90" fill="#FF5722"/>
+  <line x1="150" y1="155" x2="150" y2="175" stroke="#5D4037" stroke-width="3"/>
+  <!-- Sky burst stars -->
+  <circle cx="85" cy="40" r="4" fill="#00E676"/>
+  <circle cx="115" cy="25" r="5" fill="#FFEA00"/>
+  <circle cx="185" cy="25" r="5" fill="#00E5FF"/>
+  <circle cx="215" cy="40" r="4" fill="#76FF03"/>
+  <!-- Eco Certified Badge -->
+  <rect x="18" y="18" width="95" height="26" rx="6" fill="#00695C"/>
+  <text x="65" y="35" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF">GREEN CRACKER</text>
+  <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="14" fill="#004D40">आकाशीय स्काई शॉट (Sky Shot)</text>
+</svg>

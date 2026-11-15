@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgM" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1" />
+      <stop offset="100%" stop-color="#FFECB3" />
+    </linearGradient>
+    <radialGradient id="flowerO" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFEA00" />
+      <stop offset="70%" stop-color="#FF6D00" />
+      <stop offset="100%" stop-color="#DD2C00" />
+    </radialGradient>
+    <radialGradient id="flowerY" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFF8D" />
+      <stop offset="70%" stop-color="#FFD600" />
+      <stop offset="100%" stop-color="#FF9100" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="200" rx="16" fill="url(#bgM)" />
+  <!-- Sacred Thread Curve -->
+  <path d="M 30 50 Q 150 190 270 50" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  <!-- Hanging Marigolds -->
+  <!-- Left Side -->
+  <circle cx="50" cy="65" r="20" fill="url(#flowerO)"/>
+  <circle cx="85" cy="95" r="22" fill="url(#flowerY)"/>
+  <circle cx="120" cy="120" r="22" fill="url(#flowerO)"/>
+  <!-- Center Tassel -->
+  <circle cx="150" cy="130" r="26" fill="url(#flowerY)"/>
+  <circle cx="150" cy="130" r="16" fill="url(#flowerO)"/>
+  <!-- Right Side -->
+  <circle cx="180" cy="120" r="22" fill="url(#flowerO)"/>
+  <circle cx="215" cy="95" r="22" fill="url(#flowerY)"/>
+  <circle cx="250" cy="65" r="20" fill="url(#flowerO)"/>
+  <!-- Mango Leaves accent -->
+  <polygon points="150,130 144,165 156,165" fill="#388E3C"/>
+  <polygon points="120,120 115,150 125,150" fill="#2E7D32"/>
+  <polygon points="180,120 175,150 185,150" fill="#2E7D32"/>
+  <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="14" fill="#E65100">ताज़ा गेंदा माला (Marigold Garland)</text>
+</svg>

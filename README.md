@@ -109,24 +109,66 @@ As a Class 12th student, I designed the backend using **Pure Python 3 Standard L
 
 ---
 
-## 🚀 5. How to Run
+## 🚀 5. How to Run & Deploy
 
+### A. Local Development:
 1. Open your terminal in the project directory:
    ```bash
    cd SAHAJ_MITRA
    ```
 
-2. Start the server using the helper script or python directly:
+2. Start the Flask application:
    ```bash
-   ./run.sh
-   # OR
    python3 server.py
+   # OR:
+   ./run.sh
    ```
 
 3. Open your web browser and navigate to:
    ```
    http://localhost:8080
    ```
+
+---
+
+### B. PythonAnywhere Deployment Guide (Step-by-Step):
+
+The app is fully prepared for PythonAnywhere with the top-level Flask variable `app`:
+
+1. **Upload / Clone Project:**
+   In PythonAnywhere Bash Console, clone or extract your project files to `/home/<your-username>/SAHAJ_MITRA`.
+
+2. **Web Tab Configuration:**
+   - Go to the **Web** tab on PythonAnywhere.
+   - Click **Add a new web app**.
+   - Select **Manual configuration** (or Flask) and choose **Python 3.9** (or 3.10).
+   - In the **Code** section:
+     - **Source code:** `/home/<your-username>/SAHAJ_MITRA`
+     - **Working directory:** `/home/<your-username>/SAHAJ_MITRA`
+
+3. **Edit WSGI Configuration File:**
+   Click the link to your WSGI configuration file (e.g. `/var/www/<your-username>_pythonanywhere_com_wsgi.py`), clear default boilerplate, and enter:
+   ```python
+   import sys
+   import os
+
+   # Path to your project directory
+   project_home = '/home/<your-username>/SAHAJ_MITRA'
+   if project_home not in sys.path:
+       sys.path.insert(0, project_home)
+
+   # Import the Flask app as 'application' for WSGI
+   from server import app as application
+   ```
+
+4. **Static Files Mapping (Optional but Recommended for Speed):**
+   In the **Static files** section of the Web tab:
+   - **URL:** `/static/`
+   - **Directory:** `/home/<your-username>/SAHAJ_MITRA/static/`
+
+5. **Reload Web App:**
+   Click the green **Reload <your-username>.pythonanywhere.com** button.  
+   Your app is now live for street vendors and customers worldwide! 🎉
 
 ---
 
